@@ -1,5 +1,5 @@
 name: Build and deploy to GitHub Pages
-CI=false
+
 on:
   push:
     branches: [main]
