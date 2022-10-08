@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "./Statistics.module.css"
 import PropTypes from 'prop-types';
-import { opacity } from "styled-system";
+
  
 export class Statistics extends Component {
     render() {

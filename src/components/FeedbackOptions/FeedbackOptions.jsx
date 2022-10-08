@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "./FeedbackOptions.module.css"
 import PropTypes, { string } from 'prop-types';
-import { height, width } from "styled-system";
+
 
 export class FeedbackOption extends Component {
     render() {
