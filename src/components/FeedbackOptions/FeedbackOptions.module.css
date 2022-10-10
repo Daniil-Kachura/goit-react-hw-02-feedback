@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-/* .options__push:nth-child(1){
+.options__push:nth-child(1){
     background-color: rgb(96, 240, 96);
 }
 
@@ -28,7 +28,7 @@
 
 .options__push:nth-child(3) {
     background-color: rgb(255, 51, 51);
-} */
+}
 
 .options__push:hover {
     color: white;

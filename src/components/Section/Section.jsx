@@ -13,23 +13,11 @@ export class Section extends Component {
         bad:0
     }
 
-    setFeedbackValue = (name) => {
-        if (name === "good") {
-            this.setState(state => ({
-                [name]: state.good + 1
-            }))
-        }
-        if (name === "neutral") {
-            this.setState(state => ({
-                [name]: state.neutral + 1
-            }))
-        }
-        if (name === "bad") {
-            this.setState(state => ({
-                [name]: state.bad + 1
-            }))
-        }
-    }
+    setFeedbackValue  = state => {
+        this.setState(prevState => ({
+          [state]: prevState[state] + 1,
+        }));
+      };
 
     onLeaveFeedback = event => {
         const { name } = event.target

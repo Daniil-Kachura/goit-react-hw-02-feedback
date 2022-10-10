@@ -2,10 +2,10 @@ import { Section } from "./Section/Section";
 
 export const App = () => {
   return (
-    <article class="wrapper" >
+    < >
     <div
       style={{
-        // backgroundImage: `linear-gradient(to right, #EAECC6, #2BC0E4)`,
+        backgroundImage: `linear-gradient(to right, #EAECC6, #2BC0E4)`,
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
@@ -16,6 +16,6 @@ export const App = () => {
     >
       <Section title={'Please leave feedback'} />
      
-    </div> </article>
+    </div> </>
   );
 };
